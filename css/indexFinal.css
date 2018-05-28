@@ -1,0 +1,114 @@
+body {
+	font-family: 'Optima' !important;
+}
+.testBorder {
+	/*border: 2px solid blue;*/
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.video-bg {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.video-bg video {
+	z-index: -100;
+	bottom: 0;
+}
+
+.video-bg .logo {
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	top: 8%;
+	display: none;
+}
+
+/*TAGLINES*/
+
+.video-bg .tagline {
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	top: 35%;
+	text-align: center;
+	display: none;
+}
+
+.video-bg .tagline h1 {
+}
+
+#people {
+	width: 675px;
+	display: inline-block;
+	text-align: left;
+}
+
+/*FINAL TAGLINE*/
+
+.video-bg .finalTagline {
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	top: 60%;
+	text-align: center;
+	display: none;
+}
+
+/* SUBSCRIBE FORM */
+.video-bg .emailForm {
+	position: absolute;
+	z-index: 100;
+	top: 82%;
+	text-align: center;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	display: inline !important;
+
+}
+
+form {
+	width: 250px;
+}
+
+button {
+	margin-top: 10px;
+	opacity: 0.8;
+	background-color: #1694F7 !important;
+	border-color: #1694F7 !important;
+	width: 250px;
+}
+
+/* LOGO */
+.logo-bg {
+	background-color: #F3F3F3;
+	height: 300px;
+	text-align: center;
+}
+
+.logo-bg .logoHeader {
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.logo-bg .logoBar img {
+	width: 20vh;
+	margin-right: 25px;
+	margin-left: 25px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.logo-bg .logoBar img:hover {
+	-webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+#samsungLogo {
+	width: 30vh;
+}
