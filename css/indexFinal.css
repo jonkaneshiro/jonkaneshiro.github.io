@@ -97,7 +97,7 @@ button {
 
 /* CONTENT */
 .content {
-	height: 600px;
+	height: 150vh;
 	position: relative;
 	z-index: 1;
 	color: #CACACA;
@@ -130,10 +130,93 @@ button {
 	padding-top: 15px;
 }
 
-/* FEATURES */
-.features {
+.content .partner-box {
 	position: absolute;
+	height: 500px;
+	bottom: 0;
+	width: 49.5%;
+	background-color: rgba(236, 236, 236, 0.90);
+	text-align: center;
 }
+
+.content .partner-box2 {
+	position: absolute;
+	height: 500px;
+	bottom: 0;
+	right: 0;
+	width: 49.5%;
+	background-color: rgba(236, 236, 236, 0.90);
+	text-align: center;
+}
+
+.partner-box2 p {
+	padding-left: 50px;
+	padding-right: 50px;
+	color: black;
+}
+
+.logoHeader {
+	padding-top: 25px;
+	padding-bottom: 10px;
+	color: black;
+}
+
+.content .partner-box .logo-section div {
+	position: absolute;
+	width: 100%;
+}
+
+.logoRow1 {
+	top: 20%;
+}
+
+.logoRow2 {
+	bottom: 28%;
+}
+
+.content .partner-box .logo-section div img {
+	width: 20vh;
+	padding: 20px;
+}
+
+/* FEATURES */
+.feature-1 {
+	position: absolute;
+	font-size: 9em;
+	color: #158CEA;
+	right: 200px;
+	top: 0;
+	opacity: 0.80;
+}
+
+.feature-2 {
+	position: absolute;
+	font-size: 6.5em;
+	color: #158CEA;
+	right: 90px;
+	top: 175px;
+	opacity: 0.80;
+}
+
+.feature-3 {
+	position: absolute;
+	font-size: 5.5em;
+	color: #158CEA;
+	right: 90px;
+	top: 375px;
+	opacity: 0.80;
+}
+
+.feature-4 {
+	position: absolute;
+	font-size: 5em;
+	color: #158CEA;
+	right: 90px;
+	top: 550px;
+	opacity: 0.80;
+}
+
+
 
 /* LOGO */
 .logo-bg {
@@ -167,6 +250,6 @@ button {
 /* FOOTER */
 .footer {
 	background-color: #8A8A8A;
-	height: 40px;
+	height: 30px;
 	text-align: center;
 }
