@@ -11,10 +11,6 @@ body {
 	letter-spacing: 1px
 }
 
-p {
-	font-size: 20px;
-}
-
 .container-fluid {
 	padding: 0;
 }
@@ -74,25 +70,25 @@ p {
 .video-bg .emailForm {
 	position: absolute;
 	z-index: 100;
-	top: 82%;
-	text-align: center;
+	top: 78%;
+	text-align: center !important;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
-	display: inline !important;
-
 }
 
 form {
-	width: 250px;
+	width: 50%;
+	margin: 0 auto;
 }
+
 
 button {
 	margin-top: 10px;
 	opacity: 0.8;
 	background-color: #158CEA !important;
 	border-color: #158CEA !important;
-	width: 250px;
+	width: 50%;
 }
 
 /* CONTENT */
@@ -126,13 +122,16 @@ button {
 	position: absolute;
 	z-index: 1;
 	width: 45%;
+	height: 45%;
 	padding-left: 60px;
 	padding-top: 15px;
+	overflow: auto;
+	font-size: 1.1rem;
 }
 
 .content .partner-box {
 	position: absolute;
-	height: 500px;
+	height: 40%;
 	bottom: 0;
 	width: 49.5%;
 	background-color: rgba(236, 236, 236, 0.90);
@@ -141,7 +140,7 @@ button {
 
 .content .partner-box2 {
 	position: absolute;
-	height: 500px;
+	height: 40%;
 	bottom: 0;
 	right: 0;
 	width: 49.5%;
@@ -159,6 +158,10 @@ button {
 	padding-top: 25px;
 	padding-bottom: 10px;
 	color: black;
+}
+
+.content .partner-box .logo-section {
+	height: 100%;
 }
 
 .content .partner-box .logo-section div {
