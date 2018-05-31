@@ -5,6 +5,10 @@ body {
 	border: 2px solid blue;
 }
 
+#too-small-warning {
+	display: none;
+}
+
 .bluify {
 	color: #158CEA;
 	font-weight: bold;
@@ -190,7 +194,7 @@ button {
 .partners .container-fluid img {
 	padding-right: 25px;
 	padding-left: 25px;
-	width: 15vw;
+	width: 15%;
 	filter: grayscale(100%);
 }
 
@@ -199,7 +203,22 @@ button {
 }
 
 #samsungLogo {
-	width: 20vw;
+	width: 20%;
+}
+
+/* PARTNER WITH US */
+.partner-with-us {
+	height: 100vh;
+}
+
+#partner-with-us-header {
+	letter-spacing: 1px;
+}
+
+.partner-with-us-information {
+	text-align: center;
+	padding-top: 2%;
+	margin: 0 20%;
 }
 
 /* FOOTER */
