@@ -93,10 +93,10 @@ button {
 
 /* CONTENT */
 .content {
-	height: 150vh;
+	height: 85vh;
 	position: relative;
 	z-index: 1;
-	color: #CACACA;
+	color: black; /*#CACACA;*/
 }
 
 .content .content-bg{
@@ -115,144 +115,95 @@ button {
 #contentHeader {
 	padding-left: 30px;
 	padding-top: 30px;
-	color: #ECECEC;
+	letter-spacing: 1px;
+	color: black; /*#ECECEC;*/
 }
 
 .content .content-information {
 	position: absolute;
 	z-index: 1;
 	width: 45%;
-	height: 45%;
+	height: 100%;
 	padding-left: 60px;
 	padding-top: 15px;
 	overflow: auto;
 	font-size: 1.1rem;
 }
 
-.content .partner-box {
-	position: absolute;
-	height: 40%;
-	bottom: 0;
-	width: 49.5%;
-	background-color: rgba(236, 236, 236, 0.90);
-	text-align: center;
+/* HEART WATCH */
+.heartwatch {
+	height: 80vh;
+	position: relative;
+	z-index: 1;
 }
 
-.content .partner-box2 {
+#heartwatch-header {
+	text-align: center;
+	padding-top: 30px;
+	letter-spacing: 1px;
+/*	padding-left: 50vw;*/
+}
+
+.heartwatch-bg {
+	background-image: url("../images/heartwatch-2.jpeg");
+	opacity: 0.70;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.heartwatch .heartwatch-information {
 	position: absolute;
-	height: 40%;
-	bottom: 0;
 	right: 0;
-	width: 49.5%;
-	background-color: rgba(236, 236, 236, 0.90);
-	text-align: center;
-}
-
-.partner-box2 p {
-	padding-left: 50px;
-	padding-right: 50px;
-	color: black;
-}
-
-.logoHeader {
-	padding-top: 25px;
-	padding-bottom: 10px;
-	color: black;
-}
-
-.content .partner-box .logo-section {
+	width: 60vw;
 	height: 100%;
-}
-
-.content .partner-box .logo-section div {
-	position: absolute;
-	width: 100%;
-}
-
-.logoRow1 {
-	top: 20%;
-}
-
-.logoRow2 {
-	bottom: 28%;
-}
-
-.content .partner-box .logo-section div img {
-	width: 20vh;
-	padding: 20px;
-}
-
-/* FEATURES */
-.feature-1 {
-	position: absolute;
-	font-size: 9em;
-	color: #158CEA;
-	right: 200px;
+	background-color: rgba(255, 255, 255, 0.95);
 	top: 0;
-	opacity: 0.80;
-}
-
-.feature-2 {
-	position: absolute;
-	font-size: 6.5em;
-	color: #158CEA;
-	right: 90px;
-	top: 175px;
-	opacity: 0.80;
-}
-
-.feature-3 {
-	position: absolute;
-	font-size: 5.5em;
-	color: #158CEA;
-	right: 90px;
-	top: 375px;
-	opacity: 0.80;
-}
-
-.feature-4 {
-	position: absolute;
-	font-size: 5em;
-	color: #158CEA;
-	right: 90px;
-	top: 550px;
-	opacity: 0.80;
-}
-
-
-
-/* LOGO */
-.logo-bg {
-	background-color: #F3F3F3;
-	height: 300px;
 	text-align: center;
 }
 
-.logo-bg .logoHeader {
-	padding-top: 25px;
-	padding-bottom: 10px;
+.row {
+	text-align: center;
 }
 
-.logo-bg .logoBar img {
-	width: 20vh;
-	margin-right: 25px;
-	margin-left: 25px;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+/* PARTNERS */
+.partners {
+	width: 100vw;
+	height: 40vh;
+	text-align: center;
+	padding-bottom: 50px;
 }
 
-.logo-bg .logoBar img:hover {
-	-webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
+#partner-header {
+	padding-top: 50px;
+	letter-spacing: 1px;
+}
+
+.partners .container-fluid {
+	height: 50%;
+}
+
+.partners .container-fluid img {
+	padding-right: 25px;
+	padding-left: 25px;
+	width: 15vw;
+	filter: grayscale(100%);
+}
+
+.partners .container-fluid img:hover {
+	filter: grayscale(0%);
 }
 
 #samsungLogo {
-	width: 30vh;
+	width: 20vw;
 }
 
 /* FOOTER */
 .footer {
 	background-color: #8A8A8A;
-	height: 30px;
 	text-align: center;
 }
