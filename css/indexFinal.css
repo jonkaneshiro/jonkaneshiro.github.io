@@ -5,6 +5,11 @@ body {
 	border: 2px solid blue;
 }
 
+li {
+	list-style-type: none;
+	font-size: 1.75em;
+}
+
 #too-small-warning {
 	display: none;
 }
@@ -71,7 +76,7 @@ body {
 }
 
 /* SUBSCRIBE FORM */
-.video-bg .emailForm {
+/*.video-bg .emailForm {
 	position: absolute;
 	z-index: 100;
 	top: 78%;
@@ -79,6 +84,19 @@ body {
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
+}*/
+
+.video-bg .table-of-contents {
+	position: absolute;
+	z-index: 100;
+	bottom: 10%;
+	height: 40%;
+	text-align: center !important;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	width: 45%;
+	background: rgba(255, 255, 255, 0.75);
 }
 
 form {
@@ -93,6 +111,47 @@ button {
 	background-color: #158CEA !important;
 	border-color: #158CEA !important;
 	width: 50%;
+}
+
+/* PARTNERS */
+.partners {
+	width: 100vw;
+	height: 40vh;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#partner-header {
+	padding-top: 50px;
+	letter-spacing: 1px;
+}
+
+.partners .container-fluid {
+	height: 50%;
+}
+
+.partners .container-fluid img {
+	padding-right: 25px;
+	padding-left: 25px;
+	width: 15%;
+	filter: grayscale(100%);
+}
+
+.partners .container-fluid img:hover {
+	filter: grayscale(0%);
+}
+
+#samsungLogo {
+	width: 20%;
+}
+
+/* MISSION */
+.mission {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 /* CONTENT */
@@ -165,45 +224,13 @@ button {
 	right: 0;
 	width: 60vw;
 	height: 100%;
-	background-color: rgba(255, 255, 255, 0.95);
+	background-color: rgba(255, 255, 255, 0.80);
 	top: 0;
 	text-align: center;
 }
 
 .row {
 	text-align: center;
-}
-
-/* PARTNERS */
-.partners {
-	width: 100vw;
-	height: 40vh;
-	text-align: center;
-	padding-bottom: 50px;
-}
-
-#partner-header {
-	padding-top: 50px;
-	letter-spacing: 1px;
-}
-
-.partners .container-fluid {
-	height: 50%;
-}
-
-.partners .container-fluid img {
-	padding-right: 25px;
-	padding-left: 25px;
-	width: 15%;
-	filter: grayscale(100%);
-}
-
-.partners .container-fluid img:hover {
-	filter: grayscale(0%);
-}
-
-#samsungLogo {
-	width: 20%;
 }
 
 /* PARTNER WITH US */
